@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E6E7EB
+}
+
+header {
+    height: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;   
+}
+
+#headerBlueBox {
+    height: 90%;
+    width: 850px;
+    background-color: #4C5B9E;
+    margin: 0 auto;
+}
+#headerWhiteBox {
+    height: 10%;
+    width: 850px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding-left: 230px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+#headerWhiteBox ul {
+
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+#headerWhiteBox ul li {
+    display: inline;
+    padding-right: 10px;
+    margin-right: 10px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    font-size: 14px;
+    border-right:1px solid lightgrey;
+}
+
+#headerWhiteBox ul li:first-child {
+    font-weight: bold;
+    border-right:0px;
+    padding-right: 0;
+    margin-right: 20px;
+    border-bottom: 4px solid #4C5B9E;
+}
+
+#headerWhiteBox ul li:last-child {
+    border-right:0px;
+}
+
+#photoBox {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border: 1px solid black;
+    top: 165px;
+    margin-left: 15px;
+    background-color: #4C5B9E;
+}
+
+#headerText {
+    position: relative;
+    left: 230px;
+    top: 75px;
+    color: white;
+}
+
+#headerText h1 {
+    margin: 0px;
+    font-size: 24px;
+    padding-bottom: 5px;
+}
+
+#headerText h2 {
+    margin: 0px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#buttons {
+    position: relative;
+    font-size: 14px;
+    width: 287px;
+    left: 555px;
+    top: 45px;
+}
+
+#likeButton {
+    background-color: #ffffff;
+    padding-left:10px;
+    padding-right:10px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-top: 2px;
+    float:left;
+}
+
+#buttonBar {
+    padding: 0;
+    float: right;
+}
+
+#buttonBar div {
+    float: left;
+    height: 30px;
+    padding-left:10px;
+    padding-right:10px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid black;
+    border-left: 0px;
+    padding-top: 6px;
+    background-color: #ffffff;
+}
+
+#buttonBar div:not(:first-child):not(:last-child) {
+    border-radius: 0;
+    padding-top: 2px;
+}
+
+#buttonBar div:first-child {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    color: gray;
+}
+
+#buttonBar div:last-child{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding-top:7px;
+}
