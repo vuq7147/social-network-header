@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(173, 173, 173);
+}
+
+#headerBlue {
+    width: 850px;
+    height: 600px;
+    background-color: rgb(78, 84, 160);
+}
+
+#picProfile {
+    width: 200px;
+    height: 50px;
+    border: 1px, solid, black;
+    background-color: rgb(244, 245, 197);
+    position: relative;
+}
+
+#headerType {
+    font-size: 12px;
+}
+
+#respond {
+    display: inline;
+}
+
+#headerWht ul li {
+    display: inline;
+}
