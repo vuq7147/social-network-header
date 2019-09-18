@@ -25,30 +25,25 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
-#aboutPg ul p {
-    margin-bottom: 15px;
-    margin-right: 100px;
-    margin-top: 12px;
-}
-#aboutPg ul h2  {
-    margin-top: 0;
-    color: black;
-}
-
-#aboutPg ul h3 {
-    color: rgb(78, 84, 160);
-}
-
-#aboutPg ul p {
-    color: rgb(78, 84, 160);
-}
-
-#aboutPg ul {
-    font-size: 10px;
+#aboutPg {
+    font-size: 9px;
+    margin-left: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 0;
-    margin-left: 30px;
-    top: 40px;
+}
+
+h2 {
+    margin-top: 25px;
+}
+
+p {
+    color: rgb(78, 84, 160);
+    margin-top: 15px;
+    margin-right: 19px;
+}
+
+h3 {
+    color: rgb(78, 84, 160);
+    margin-top: 15px;
 }
 
 .lineLa {
